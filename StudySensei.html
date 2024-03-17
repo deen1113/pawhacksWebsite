@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StudySensei</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Peddana&family=Shojumaru&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+
+</head>
+<body>
+
+<script src="SenseiJS.js"></script>
+<script>
+
+</script>
+
+<header>
+    <!--StudySensei Title-->
+    <div class="homeTab">
+        <h1 class="tabLinks" onclick="openTab(event, 'quiz')">Study Sensei</h1>
+    </div>
+
+
+
+    <!--These are all Tabs-->
+
+    <div class="tab">
+        <button class="tabLinks" onclick="openTab(event, 'quiz')">Home</button>
+        <button class="tabLinks" onclick="openTab(event, 'StudyMethods')">Study Methods</button>
+        <button class="tabLinks" onclick="openTab(event, 'AboutUs')">About Us</button>
+        <button class="tabLinks" onclick="openTab(event, 'OurMission')">Our Mission</button>
+
+    </div>
+
+</header>
+
+
+<div id="StudyMethods" class="tabContent">
+    <h3>The Pomodoro Method</h3>
+    <p>Have you ever found yourself struggling to maintain focus while studying or working
+        on tasks? The Pomodoro Technique might just be the solution you've been searching for! This simple yet effective
+        time management method encourages you to break your work into manageable intervals, typically 25 minutes each,
+        separated by short breaks. Named after the Italian word for 'tomato' due to its creator's tomato-shaped kitchen
+        timer, the Pomodoro Technique promotes productivity by helping you stay focused during work sessions and
+        allowing for regular breaks to recharge."</p>
+    <h3>The Feynman Technique</h3>
+    <p>Named after the renowned physicist Richard Feynman, this technique advocates for the concept of 'learning by
+        teaching.' It encourages you to break down complex ideas into simple explanations as if you were teaching them
+        to a beginner. By doing so, you'll identify gaps in your understanding and refine your knowledge until it's
+        crystal clear. The Feynman Technique emphasizes the importance of simplicity and clarity, making learning both
+        effective and enjoyable. </p>
+    <h3>The Blurt Method</h3>
+    <p>The Blurt Method is a simple yet effective technique for brainstorming and organizing your thoughts. To begin,
+        select a topic you want to explore or develop ideas about. Set a timer for a brief period, typically 10-15
+        minutes, to dedicate to uninterrupted writing. During this time, let your thoughts flow freely onto the page
+        without pausing to edit or structure them. Once the timer concludes, take a short break before returning to your
+        writing. Use this opportunity to review what you've written and begin organizing your thoughts into a more
+        cohesive outline or essay. By allowing yourself the freedom to 'blurt out' your ideas without inhibition, you'll
+        often uncover valuable insights and creative solutions to explore further. </p>
+    <h3>The SQ3R Method</h3>
+    <ul>
+        <li>Survey: Begin by quickly skimming through the material you're about to read. Pay attention to headings,
+            subheadings, and any bolded or italicized text. Look at any visual aids such as charts, graphs, or images.
+            This step helps you get an overview of the content.
+        </li>
+
+        <li>Question: Formulate questions based on the material you've surveyed. These questions should focus on the
+            main points or key concepts of the text. Asking questions helps you engage with the material and set a
+            purpose for your reading.
+        </li>
+
+        <li>Read: Read the text actively and attentively. As you read, try to answer the questions you formulated in the
+            previous step. Take notes, highlight important information, and annotate the text as needed. Pay close
+            attention to any information that answers your questions.
+        </li>
+
+        <li>Recite: After reading a section of the text, pause and summarize what you've learned in your own words.
+            Reciting helps reinforce your understanding of the material and commit it to memory. Try to recall key
+            points and concepts without looking at the text.
+        </li>
+
+        <li>Review: Once you've finished reading the entire text, take some time to review your notes and the material
+            as a whole. Reflect on the main ideas, key points, and any areas that you found challenging. Reviewing helps
+            solidify your understanding and identify any gaps in your knowledge.
+        </li>
+    </ul>
+    <p>
+        By following the SQ3R method, you can approach your reading assignments or study materials in a systematic
+        and effective way, leading to better comprehension and retention of the content.
+    </p>
+</div>
+
+<div id="AboutUs" class="tabContent">
+    <h3>About Us</h3>
+    <p>Hi, my is Deen Khan. I'm a Northeastern freshman computer science major and 19 years old.
+        I always had trouble focusing while studying until I found the Pomodoro method, which completely
+        changed my academic life. I wanted to be able to share these useful techniques with other students,
+        while at the same time giving a short quiz to be able to give a method that benefits the user the most.
+        This is my first WebDev project!</p>
+
+    <p>Hello, my name is Rithvik Nandhyala</p>
+</div>
+
+<div id="OurMission" class="tabContent">
+    <h3>Our Mission</h3>
+    <p>Our mission is to spread the secrets to success in studying and make education </p>
+</div>
+
+<!--    <h3 class="quiz-question">Are you someone who likes to actively engage with the material through techniques like summarizing, questioning, and reviewing?</h3>-->
+<!--    <ul data-quiz-question="4">-->
+<!--        <li class="quiz-answer" data-quiz-answer="a">A. Yes</li>-->
+<!--        <li class="quiz-answer" data-quiz-answer="b">B. No</li>-->
+<!--        <li class="quiz-answer" data-quiz-answer="c">C. Sometimes</li>-->
+<!--        <li class="quiz-answer" data-quiz-answer="d">D. Not Sure</li>-->
+<!--    </ul>-->
+
+<!--    <h3 class="quiz-question">Do you believe in the effectiveness of spaced repetition and active recall for long-term retention of information?</h3>-->
+<!--    <ul data-quiz-question="5">-->
+<!--        <li class="quiz-answer" data-quiz-answer="a">A. Yes</li>-->
+<!--        <li class="quiz-answer" data-quiz-answer="b">B. No</li>-->
+<!--        <li class="quiz-answer" data-quiz-answer="c">C. Sometimes</li>-->
+<!--        <li class="quiz-answer" data-quiz-answer="d">D. Not Sure</li>-->
+<!--    </ul>-->
+
+<!--    <h3 class="quiz-question">Q6: Would you rather break down complex topics into simpler components for easier understanding and review?-->
+<!--    </h3>-->
+<!--    <ul data-quiz-question="6">-->
+<!--        <li class="quiz-answer" data-quiz-answer="a">A. Yes</li>-->
+<!--        <li class="quiz-answer" data-quiz-answer="b">B. No</li>-->
+<!--        <li class="quiz-answer" data-quiz-answer="c">C. Sometimes</li>-->
+<!--        <li class="quiz-answer" data-quiz-answer="d">D. Not Sure</li>-->
+<!--    </ul>-->
+<!--</div>-->
+
+<!--<div class="quiz-result"></div>-->
+
+<div id="quiz" class="quiz-container">
+    <h2 class="scroller" onclick="scrollDown()"> Take the Quiz!</h2>
+    <h5 id="down">Quiz</h5>
+    <div class="question" id="question1">
+        <h3>Are you someone who gets distracted easily?</h3>
+        <div class="options">
+            <label><input type="radio" name="question1" value="yes"> Yes</label>
+            <label><input type="radio" name="question1" value="no"> No</label>
+            <label><input type="radio" name="question1" value="sometimes"> Sometimes</label>
+
+        </div>
+    </div>
+    <div class="question" id="question2">
+        <h3>Do you find it helpful to explain concepts to others to learn them?</h3>
+        <div class="options">
+            <label><input type="radio" name="question2" value="yes"> Yes</label>
+            <label><input type="radio" name="question2" value="no"> No</label>
+            <label><input type="radio" name="question2" value="sometimes"> Sometimes</label>
+        </div>
+    </div>
+    <div class="question" id="question3">
+        <h3>When learning new material, do you prefer to quickly jot down your initial thoughts and ideas without worrying about organization?</h3>
+        <div class="options">
+            <label><input type="radio" name="question3" value="yes"> Yes</label>
+            <label><input type="radio" name="question3" value="no"> No</label>
+            <label><input type="radio" name="question3" value="sometimes"> Sometimes</label>
+
+            <div class="question" id="question4">
+                <h3>Do you prefer studying alone or in a group?</h3>
+                <div class="options">
+                    <label><input type="radio" name="question4" value="alone"> Alone</label>
+                    <label><input type="radio" name="question4" value="group"> In a Group</label>
+                    <label><input type="radio" name="question4" value="both"> Both</label>
+                </div>
+            </div>
+            <div class="question" id="question5">
+                <h3>How do you feel about visual aids such as diagrams and charts?</h3>
+                <div class="options">
+                    <label><input type="radio" name="question5" value="helpful"> They are helpful</label>
+                    <label><input type="radio" name="question5" value="not-helpful"> They are not helpful</label>
+                    <label><input type="radio" name="question5" value="depends"> It depends</label>
+                </div>
+            </div>
+            <div class="question" id="question6">
+                <h3>Do you prefer to study in short, intense bursts or longer, more relaxed sessions?</h3>
+                <div class="options">
+                    <label><input type="radio" name="question6" value="short-bursts"> Short, intense bursts</label>
+                    <label><input type="radio" name="question6" value="long-sessions"> Longer, more relaxed sessions</label>
+                    <label><input type="radio" name="question6" value="depends"> It depends</label>
+                    <div class="question" id="question7">
+                        <h3>How do you prefer to take notes during lectures or study sessions?</h3>
+                        <div class="options">
+                            <label><input type="radio" name="question7" value="handwritten"> Handwritten</label>
+                            <label><input type="radio" name="question7" value="typed"> Typed on a device</label>
+                            <label><input type="radio" name="question7" value="both"> Both</label>
+                        </div>
+                    </div>
+                    <div class="question" id="question8">
+                        <h3>What is your preferred study environment?</h3>
+                        <div class="options">
+                            <label><input type="radio" name="question8" value="quiet"> Quiet and isolated</label>
+                            <label><input type="radio" name="question8" value="busy"> Busy and bustling</label>
+                            <label><input type="radio" name="question8" value="depends"> It depends</label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <button onclick="showResult()">Submit</button>
+            <div class="result" id="result"></div>
+        </div>
+
+</body>
+</html>

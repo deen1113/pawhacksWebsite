@@ -1,0 +1,191 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.84));
+    text-align: center;
+    height: 4000px;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: darkcyan;
+    padding: 5px;
+    transition: all .50s ease;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+homeTab {
+    color: white;
+    font-family: "Shojumaru";
+    cursor: pointer;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    animation: fadeIn 1s ease-out forwards;
+
+}
+
+h1 {
+    color: white;
+    font-family: "Shojumaru";
+    cursor: pointer;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+h2 {
+    margin-top: 300px;
+    margin-bottom: 250px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: xxx-large;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+h3 {
+    color: white;
+    font-size: x-large;
+    font-family: "Poppins", sans-serif;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+h4 {
+    color: white;
+    margin-right: 25px;
+}
+
+h5 {
+    color: white;
+    font-size: xxx-large;
+}
+
+.scroller {
+    background-color: #f2f2f2;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border-radius: 1em;
+    transition: 0.5s;
+    cursor: pointer;
+
+
+}
+
+.tab {
+    overflow: hidden;
+    color: black;
+    display: flex;
+}
+
+.tab button {
+    background-color: #f2f2f2;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border-radius: 1em;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.tab button:hover {
+    background: #00ce15;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.tabContent {
+    color: white;
+    display: none;
+    padding: 20px;
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 100px;
+
+}
+
+.options label {
+    background-color: #f2f2f2;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 1em;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#down {
+    margin-top: 100%;
+    padding-bottom: 25%;
+}
+
