@@ -1,7 +1,7 @@
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.84));
+    background: #1c1c1c;
     text-align: center;
-    height: 4000px;
+    height: 2000px;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
     scroll-behavior: smooth;
@@ -64,6 +64,7 @@ h3 {
     font-size: x-large;
     font-family: "Poppins", sans-serif;
     animation: fadeIn 1s ease-out forwards;
+    margin-top: 20%;
 }
 
 h4 {
@@ -74,6 +75,7 @@ h4 {
 h5 {
     color: white;
     font-size: xxx-large;
+    margin-top: 50%;
 }
 
 .scroller {
@@ -83,13 +85,20 @@ h5 {
     outline: none;
     cursor: pointer;
     padding: 0.5em 1em;
-    margin: 0.5em;
+    margin-top: 5em;
+    color: black;
     border-radius: 1em;
     transition: 0.5s;
     cursor: pointer;
 
+}
+
+.scroller:hover{
+    background: rgba(28,28,28,0.5);
 
 }
+
+
 
 .tab {
     overflow: hidden;
@@ -111,7 +120,7 @@ h5 {
 }
 
 .tab button:hover {
-    background: #00ce15;
+    background: rgba(28,28,28,0.67);
 
 }
 
@@ -166,6 +175,8 @@ h5 {
     border-radius: 1em;
     transition: 0.3s;
     cursor: pointer;
+
+
 }
 
 .result {
@@ -186,6 +197,6 @@ a {
 
 #down {
     margin-top: 100%;
-    padding-bottom: 25%;
+    /*padding-bottom: 25%;*/
 }
 
